@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago RP | Site Officiel</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- BOUTON HAMBURGER -->
+<div class="hamburger" id="hamburger">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="logo">CHICAGO RP</div>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="about.html">À propos</a></li>
+    <li><a href="rules.html">Règlement</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="careers.html">Carrières</a></li>
+    <li><a href="staff.html">Staff</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="legal.html">Mentions Légales</a></li>
+    <li><a href="nextone.html">Next One Group</a></li>
+  </ul>
+</nav>
+
+<div id="main-content">
+<header class="hero">
+  <div>
+    <h1>CHICAGO RP</h1>
+    <p>
+      Serveur roleplay réaliste et immersif inspiré de la ville de Chicago,
+      intégré dans Brookhaven RP sur Roblox.
+    </p>
+    <a href="https://discord.gg/hjK5nKjq96" class="btn">Rejoindre le Discord</a>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Un RP structuré et sérieux</h2>
+  <div class="card">
+    Chicago RP repose sur une hiérarchie claire, des institutions réalistes,
+    une immersion totale et un respect strict du Fear RP.
+  </div>
+  <div class="card">
+    Chaque action a des conséquences RP.
+    Chaque carrière possède son évolution.
+    Chaque joueur est responsable de son rôle.
+  </div>
+</section>
+
+<footer>
+  © Chicago RP • Site officiel • Développé par Next One Group – IT
+</footer>
+<script>const sidebar = document.getElementById('sidebar');
+const mainContent = document.getElementById('main-content');
+const hamburger = document.getElementById('hamburger');
+
+hamburger.addEventListener('click', () => {
+  sidebar.classList.toggle('open');
+  mainContent.classList.toggle('expanded');
+});
+</script>
+
+</body>
+</html>
